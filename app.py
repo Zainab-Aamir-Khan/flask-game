@@ -11,6 +11,9 @@ def home():
 def about():
     return "<h1>This is an about us page</h1>"
 
+@app.route("/contact")
+def contact():
+    return "<h1>This is a contact us page</h1>"
 
 
 if __name__ == '__main__':
