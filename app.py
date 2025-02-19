@@ -15,6 +15,9 @@ def about():
 def contact():
     return "<h1>This is a contact us page</h1>"
 
+@app.route("/product")
+def product():
+    return "<h1>This is a product page</h1>"
 
 if __name__ == '__main__':
     app.run(debug =True)
